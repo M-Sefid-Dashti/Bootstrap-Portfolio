@@ -1,3 +1,5 @@
+/*
+
 *
 {
     box-sizing: border-box;
@@ -77,8 +79,42 @@ leftalign
 {
     color: red;
 }
+
+*/
+.page-header
+{
+  font-weight: bold;
+  color: blue;
+}
+.col-md-8
+{
+	//width: 100%;
+	color: blue;
+	font-weight: bold;
+	background-color:lavender;
+  border-right: 10px;       // Does not work
+  border-color: black;      // Does not work
+}
+.col-md-4
+{
+	width: 100%
+	//font-weight: bold;
+	color: blue;
+  background-color:yellow;
+  border-color: black;
+  border-left: 10px;
+}
+a
+{
+	color: bule;
+}
+
 @media screen and (max-width: 768px)
 {
+  .col-md-4
+  {
+      width: 100%;
+  }
 
 }
 @media screen and (max-width: 480px)
